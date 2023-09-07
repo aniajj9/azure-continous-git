@@ -8,7 +8,7 @@ WORKDIR /app
 COPY helpfulErrors.py .
 
 # Expose the necessary port
-EXPOSE 8000
+EXPOSE 80
 
 # Set the command to run your Python server
 CMD ["python", "helpfulErrors.py"]
