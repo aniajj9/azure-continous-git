@@ -155,7 +155,7 @@ class SessionHandler(BaseHTTPRequestHandler):
                             """
 
 
-address = ('', 8000)
+address = ('', 80)
 handler = SessionHandler
 server = HTTPServer(address, handler)
 
