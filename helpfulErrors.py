@@ -89,7 +89,7 @@ class SessionHandler(BaseHTTPRequestHandler):
             """
         else:
             return """
-            Welcome Stranger!<br><br>
+            Welcome Stranger! :) + the github actions work! <br><br>
             <a href="/login">Login</a> | <a href="/account">Account</a> | <a href="/logout">Logout</a>
             """
 
